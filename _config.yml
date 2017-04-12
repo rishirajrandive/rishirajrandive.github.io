@@ -1,1 +1,37 @@
-theme: jekyll-theme-architect
+# Setup
+title:        Hello World!
+tagline:      I am a Software Engineer at San Jose State University and this site has all my work
+baseurl:      ""
+paginate:     1
+
+# Footer settings
+footer:
+  copyright: Rishiraj Randive
+  location: San Jose
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/rishi_randive
+  - title: facebook
+    url: https://facebook.com/rishi.randive
+  - title: linkedin
+    url: https://linkedin.com/in/rishirandive/
+  - title: github
+    url: https://github.com/rishirajrandive
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 33 South Third Street
+  - line: San Jose, CA 95113
+
+# Credits content
+credits: 'This website is created using <a href="https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/">Jekyll with Github pages</a>, and open source theme created by <a href="https://github.com/jasonlong/cayman-theme">Caymen theme</a>.'
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
